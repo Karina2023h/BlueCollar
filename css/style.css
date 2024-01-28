@@ -192,7 +192,7 @@ li {
 /* hero */
 
 .hero {
-  background-image: url('../img/hero/hero.png');
+  background-image: url(../img/hero/hero.png);
   /* Замените путь на ваше изображение или цвет фона */
   background-size: cover;
   background-position: center;
