@@ -149,7 +149,17 @@ li {
   font-size: 17px;
   font-weight: 600;
   line-height: 30px;
+  transition: color 0.3s ease;
+}
 
+
+.footer-word {
+  text-decoration: none;
+}
+
+.na-glav:hover {
+  color: #fff;
+  /* Новый цвет текста при наведении */
 }
 
 /* Применяем цвет при нажатии */
@@ -1211,7 +1221,8 @@ li {
 /* footer-section */
 
 .footer-section {
-  height: 400px;
+  padding: 20px 45px;
+  height: 450px;
   background-color: rgba(28, 39, 82, 1);
 }
 
@@ -1222,7 +1233,8 @@ li {
 }
 
 .logo-box {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-right: 40px;
 }
 
 .address-footer {
@@ -1230,6 +1242,7 @@ li {
   margin-left: 20px;
   align-items: center;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 
@@ -1237,9 +1250,25 @@ li {
   display: flex;
 }
 
+.logo-lokation-footer {
+  cursor: pointer;
+}
 
+.logo-email-footer,
+.logo-tell-footer,
+.logo-lokation-footer {
+  transition: transform 0.3s ease;
+}
 
-.parg-adres-footer {
+.logo-email-footer:hover,
+.logo-tell-footer:hover,
+.logo-lokation-footer:hover {
+  transform: scale(1.1);
+  /* Увеличение в 1.2 раза при наведении */
+}
+
+.parg-adres-footer,
+.location-info {
   font-family: 'Mulish';
   font-size: 20px;
   font-weight: 400;
@@ -1250,7 +1279,8 @@ li {
 }
 
 .email-cont-footer,
-.tell-cont-footer {
+.tell-cont-footer,
+.location-cont-footer {
   font-family: 'Inter';
   font-size: 17px;
   font-weight: 400;
@@ -1259,4 +1289,126 @@ li {
   text-align: left;
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
+}
+
+.emaill-footer,
+.teell-footer,
+.location-marker {
+  margin-left: 15px;
+}
+
+.linia-footer {
+  background: rgba(75, 85, 125, 1);
+  height: 1px;
+  margin-top: 5px;
+}
+
+.footer-iconka {
+  width: 400px;
+  margin-top: 50px;
+}
+
+
+.paragraf-footer-iconka {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.icons-iconka {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.icon-ftr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background: rgba(44, 55, 101, 1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.icon-ftr:hover {
+  background-color: #06103b;
+
+}
+
+
+.vertical-line {
+  border-left: 1px solid#4b557d;
+  height: 160px;
+  margin: 0 15px;
+  margin-top: 160px;
+}
+
+.vertical-liner {
+  border-left: 1px solid#4b557d;
+  height: 160px;
+  margin: 0 70px;
+  margin-top: 160px;
+
+}
+
+.change-footer {
+  display: flex;
+}
+
+.footer-word-text {
+  display: flex;
+  margin-left: 40px;
+  gap: 90px;
+
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.parg-foter {
+  font-family: 'Mulish';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: #ffb342;
+  margin-bottom: 7px;
+}
+
+.footer-word {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.column-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.varew {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.liniar-footer {
+
+  background: rgba(75, 85, 125, 1);
+  height: 1px;
+  margin-top: -50px;
 }

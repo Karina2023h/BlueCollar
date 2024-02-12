@@ -59,17 +59,17 @@
     <section class="sect-info container">
       <div class="navigation">
         <ul class="navig-icons">
-          <li class="na-glav"><a class="na-glav" href="#">Головна</a></li>
-          <li class="na-glav"><a class="na-glav" href="#">Про нас</a></li>
-          <li class="na-glav"><a class="na-glav" href="#">Сторінки</a></li>
-          <li class="na-glav"><a class="na-glav" href="#">Блог</a></li>
-          <li class="na-glav"><a class="na-glav" href="#">Контакти</a></li>
+          <li class="na-glav"><a class="na-glav" href="#glavna">Головна</a></li>
+          <li class="na-glav"><a class="na-glav" href="#about">Про нас</a></li>
+          <li class="na-glav"><a class="na-glav" href="#we">Послуги</a></li>
+          <li class="na-glav"><a class="na-glav" href="#blog">Блог</a></li>
+          <li class="na-glav"><a class="na-glav" href="#contact">Контакти</a></li>
         </ul>
 
         <button class="cta-button"><a class="ct-button" href="tel:+1234567890">Виникли запитання?</a></button>
       </div>
     </section>
-    <section class="hero container">
+    <section id="glavna" class="hero container">
       <div class="hero-content">
         <div class="content-container">
           <img src="./img/hero/detal.png" alt="Маленькое изображение">
@@ -80,7 +80,7 @@
       </div>
     </section>
 
-    <section class="image-text-section">
+    <section id="about" class="image-text-section">
       <div class="image-container">
         <img src="./img/sect1/foto21.png" width="505" height="560" alt="Изображение">
       </div>
@@ -115,7 +115,7 @@
         </div>
       </div>
     </section>
-    <section class="orang-section">
+    <section id="poslyga" class="orang-section">
       <div class="new-info-container">
         <div class="text-orangas ">
           <img src="./img/sect1/foto22.png" alt="Маленькое изображение">
@@ -148,7 +148,7 @@
     </section>
 
     <section class="services container">
-      <div class="services-ours container">
+      <div id="we" class="services-ours container">
         <div class="servis container">
           <img src="./img/sect3/foto1.png" width="22" height="25" alt="Маленькое изображение">
           <p class="parg-servis">Зона обслуговування</p>
@@ -204,7 +204,7 @@
       </div>
     </section>
 
-    <section class="image-textar-section">
+    <section id="blog" class="image-textar-section">
       <div class="imagesis-container">
         <img src="./img/sect3/foto11.png" width="530" height="650" alt="Изображение">
         <div class="overlay">
@@ -283,7 +283,7 @@
     </section>
 
     <section class="image-grid-section">
-      <div class="drap">
+      <div id="proekt" class="drap">
         <img src="./img/sect3/foto1.png" width="22" height="25" alt="Маленькое изображение">
         <p class="parg-drap">Галерея</p>
       </div>
@@ -323,7 +323,7 @@
     </section>
 
     <section class="price-var container">
-      <div class="info-price">
+      <div id="price" class="info-price">
         <div class="price-plan">
           <div class="text-price">
             <div class="paragraf-price-ac">
@@ -563,7 +563,7 @@
     </section>
   </main>
 
-  <footer class="footer-section">
+  <footer id="contact" class="footer-section">
     <div class="footer-pidval">
       <div class="footer-logo">
         <div class="logo-box">
@@ -587,17 +587,93 @@
               </p>
             </div>
           </div>
+          <div class="address-footer">
+            <img class="logo-lokation-footer" src="./img/footer-logo/Frame.png" width="68" height="68" alt="Адрес 2">
+            <div class="location-marker" id="map" onclick="showLocation()">
+              <p class="location-info">Локація
+                <a class="location-cont-footer">Полтава, 3600</a>
+              </p>
+            </div>
+          </div>
         </div>
-
-
-
       </div>
+      <div class="linia-footer"></div>
+
+      <div class="change-footer">
+        <div class="footer-iconka">
+          <div class="text-iconka">
+            <p class="paragraf-footer-iconka">Ми тут, щоб задовольнити потреби ваших основних послуг для будівлі вашої
+              мрії, будь то
+              комерційна, житлова чи
+              промислова.</p>
+          </div>
+          <div class="icons-iconka">
+            <div class="icon-ftr">
+              <img src="./img/footer-logo/iconka1.png" alt="iconka">
+            </div>
+            <div class="icon-ftr">
+              <img src="./img/footer-logo/iconka2.png" alt="iconka">
+            </div>
+            <div class="icon-ftr">
+              <img src="./img/footer-logo/iconka3.png" alt="iconka">
+            </div>
+            <div class="icon-ftr">
+              <img src="./img/footer-logo/iconka4.png" alt="iconka">
+            </div>
+          </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="footer-word-text">
+          <div class="column-footer">
+            <p class="parg-foter">Детально</p>
+            <div class="footer-word">
+              <a class="footer-word" href="#about">Про нас</a>
+            </div>
+            <div class="footer-word">
+              <a class="footer-word" href="#poslyga">Основні послуги</a>
+            </div>
+            <div class="footer-word">
+              <a class="footer-word" href="#we">Послуги</a>
+            </div>
+            <div class="footer-word">
+              <a class="footer-word" href="#blog">Блог</a>
+            </div>
+            <div class="footer-word">
+              <a class="footer-word" href="#contact">Контакти</a>
+            </div>
+          </div>
+
+          <div class="column-footer">
+            <p class="parg-foter">Посилання</p>
+            <div class="footer-word">
+              <a class="footer-word" href="#glavna">Головна</a>
+            </div>
+            <div class="footer-word">
+              <a class="footer-word" href="#we">Послуги</a>
+            </div>
+            <div class="footer-word"><a class="footer-word" href="#poslyga">Обслуговування</a></div>
+            <div class="footer-word"><a class="footer-word" href="#proekt">Проекти</a></div>
+            <div class="footer-word"><a class="footer-word" href="#price">Вартість</a></div>
+          </div>
+        </div>
+        <div class="vertical-liner"></div>
+        <div class="varew">
+          <div class="column-footer">
+            <p class="parg-foter">Сторінки CП</p>
+            <div class="footer-word"><a class="footer-word" href="#">Керівництво по стилю</a></div>
+            <div class="footer-word"><a class="footer-word" href="#">Журнал змін</a></div>
+            <div class="footer-word"><a class="footer-word" href="#">Ліцензії</a></div>
+            <div class="footer-word"><a class="footer-word" href="#">Захищена сторінка</a></div>
+            <div class="footer-word"><a class="footer-word" href="#">404 Сторінка</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="liniar-footer"></div>
     </div>
   </footer>
-
   <script src="./js/script.js"></script>
   <script src="./js/scrpt.js"></script>
-
+  <script src="./js/scroll.js"></script>
 
 </body>
 
