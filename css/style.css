@@ -86,7 +86,7 @@ li {
     display: flex;
     list-style: none;
     gap: 10px;
-    /* display: none; */
+    display: none;
   }
 }
 
@@ -140,7 +140,7 @@ li {
 
 @media only screen and (max-width: 489px) {
   .logo-fotofra {
-    width: 180px;
+    width: 150px;
   }
 }
 
