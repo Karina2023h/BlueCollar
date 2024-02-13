@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const links = document.querySelectorAll("a");
+  const links = document.querySelectorAll(".footer-word, .na-glav");
 
   links.forEach((link) => {
     link.addEventListener("click", smoothScroll);
