@@ -1139,23 +1139,13 @@ li {
 
 /* Servises */
 
-@media only screen and (max-width: 376px) {
-  .services {
-    background: rgba(244, 244, 244, 1);
-    height: 700px;
-    padding-top: 1px;
-  }
+.services {
+  background: rgba(244, 244, 244, 1);
+  height: 700px;
+  padding-top: 1px;
 }
 
-@media only screen and (min-width: 376px) {
-  .services {
-    background: rgba(244, 244, 244, 1);
-    height: 700px;
-    padding-top: 1px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .services {
     background: rgba(244, 244, 244, 1);
     height: 1100px;
@@ -1163,36 +1153,19 @@ li {
   }
 }
 
-
-@media only screen and (max-width: 376px) {
-  .servis {
-    display: flex;
-    margin-top: 60px;
-    justify-content: center;
-    align-items: center;
-    height: 23px;
-    background: rgba(255, 255, 255, 1);
-    width: 148px;
-    color: rgba(28, 39, 82, 1);
-  }
+.servis {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 23px;
+  background: rgba(255, 255, 255, 1);
+  width: 148px;
+  color: rgba(28, 39, 82, 1);
 }
 
 
-@media only screen and (min-width: 376px) {
-  .servis {
-    display: flex;
-    margin-top: 60px;
-    justify-content: center;
-    align-items: center;
-    height: 23px;
-    background: rgba(255, 255, 255, 1);
-    width: 148px;
-    color: rgba(28, 39, 82, 1);
-  }
-}
-
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .servis {
     display: flex;
     margin-top: 120px;
@@ -1206,30 +1179,17 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .parg-servis {
-    font-family: 'Inter';
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (min-width: 377px) {
-  .parg-servis {
-    font-family: 'Inter';
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    margin-left: 5px;
-  }
+.parg-servis {
+  font-family: 'Inter';
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  margin-left: 5px;
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-servis {
     font-family: 'Inter';
     font-size: 18px;
@@ -1242,34 +1202,19 @@ li {
 }
 
 
-@media only screen and (max-width: 376px) {
-  .glavn-servis {
-    margin-bottom: 13px;
-    font-family: 'Mulish';
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-  }
-}
-
-@media only screen and (min-width: 377px) {
-  .glavn-servis {
-    margin-bottom: 13px;
-    font-family: 'Mulish';
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-  }
+.glavn-servis {
+  margin-bottom: 13px;
+  font-family: 'Mulish';
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: rgba(28, 39, 82, 1);
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .glavn-servis {
     margin-bottom: 10px;
     font-family: 'Mulish';
@@ -1282,7 +1227,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .paragr-servis {
     font-family: 'Inter';
     font-size: 10px;
@@ -1296,21 +1241,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 377px) {
-  .paragr-servis {
-    font-family: 'Inter';
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(126, 126, 126, 1);
-    width: 280px;
-    margin: 0 auto;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .paragr-servis {
     font-family: 'Inter';
     font-size: 18px;
@@ -1333,25 +1264,9 @@ li {
   flex-direction: row;
   align-content: center;
   margin-top: 30px;
-  padding: 5px 5px;
 }
 
-
-@media only screen and (min-width: 377px) {
-  .column-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    align-items: center;
-    flex-direction: row;
-    align-content: center;
-    margin-top: 30px;
-    padding: 5px 5px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .column-section {
     display: flex;
     flex-wrap: wrap;
@@ -1365,24 +1280,13 @@ li {
   }
 }
 
-
-@media only screen and (max-width: 376px) {
-  .column {
-    width: 150px;
-    height: 135px;
-    background: rgba(28, 39, 82, 1);
-  }
+.column {
+  width: 150px;
+  height: 142px;
+  background: rgba(28, 39, 82, 1);
 }
 
-@media only screen and (min-width: 377px) {
-  .column {
-    width: 150px;
-    height: 135px;
-    background: rgba(28, 39, 82, 1);
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .column {
     width: 295px;
     height: 278px;
@@ -1403,21 +1307,8 @@ li {
 }
 
 
-@media only screen and (min-width: 377px) {
-  .glavn-column {
-    font-family: 'Mulish';
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(255, 179, 66, 1);
-    margin-left: 11px;
-    margin-bottom: 5px;
-  }
-}
 
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .glavn-column {
     font-family: 'Mulish';
     font-size: 22px;
@@ -1441,21 +1332,8 @@ li {
   width: 135px;
 }
 
-@media only screen and (min-width: 377px) {
-  .paragr-column {
-    font-family: 'Inter';
-    font-size: 7px;
-    font-weight: 400;
-    line-height: 13px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(210, 210, 210, 1);
-    margin-left: 11px;
-    width: 135px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .paragr-column {
     font-family: 'Inter';
     font-size: 13px;
@@ -1476,16 +1354,8 @@ li {
   margin-left: 15px;
 }
 
-@media only screen and (min-width: 377px) {
-  .img-column {
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    margin-left: 15px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .img-column {
     width: 40px;
     height: 40px;
@@ -1502,16 +1372,8 @@ li {
   margin-top: 20px;
 }
 
-@media only screen and (min-width: 377px) {
-  .foto-decorations {
-    width: 180px;
-    height: 220px;
-    margin-top: 20px;
-  }
-}
 
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-decorations {
     width: 530px;
     height: 650px;
@@ -1532,14 +1394,7 @@ li {
 }
 
 
-@media only screen and (min-width: 377px) {
-  .img-wir {
-    width: 8px;
-    height: 9px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .img-wir {
     width: 22px;
     height: 25px;
@@ -1555,18 +1410,7 @@ li {
   margin-left: 5px;
 }
 
-@media only screen and (min-width: 377px) {
-  .par-wir {
-    font-family: 'Inter';
-    font-size: 6px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .par-wir {
     font-family: 'Inter';
     font-size: 18px;
@@ -1589,20 +1433,8 @@ li {
   width: 80px;
 }
 
-@media only screen and (min-width: 377px) {
-  .us-wir {
-    display: flex;
-    align-items: center;
-    background: rgba(244, 244, 244, 1);
-    height: 10px;
-    justify-content: center;
-    margin-top: 6px;
-    margin-left: 30px;
-    width: 80px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .us-wir {
     display: flex;
     align-items: center;
@@ -1616,36 +1448,19 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .new-info-wir {
-    margin-left: 8px;
-    font-family: 'Mulish';
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-    width: 157px;
-  }
+.new-info-wir {
+  margin-left: 8px;
+  font-family: 'Mulish';
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: rgba(28, 39, 82, 1);
+  width: 157px;
 }
 
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .new-info-wir {
-    margin-left: 8px;
-    font-family: 'Mulish';
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-    width: 157px;
-  }
-}
-
-
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .new-info-wir {
     margin-left: 100px;
     font-family: 'Mulish';
@@ -1654,40 +1469,24 @@ li {
     letter-spacing: 0.36000001430511475px;
     text-align: left;
     color: rgba(28, 39, 82, 1);
+    width: 537px;
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .para-new-wir {
-    font-family: 'Inter';
-    font-size: 6px;
-    font-weight: 400;
-    line-height: 10px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    margin-left: 8px;
-    color: rgba(126, 126, 126, 1);
-    margin-top: -7px;
-    width: 158px;
-  }
+.para-new-wir {
+  font-family: 'Inter';
+  font-size: 6px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  margin-left: 8px;
+  color: rgba(126, 126, 126, 1);
+  margin-top: -7px;
+  width: 158px;
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .para-new-wir {
-    font-family: 'Inter';
-    font-size: 6px;
-    font-weight: 400;
-    line-height: 10px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    margin-left: 8px;
-    color: rgba(126, 126, 126, 1);
-    margin-top: -7px;
-    width: 158px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .para-new-wir {
     font-family: 'Inter';
     font-size: 17px;
@@ -1699,6 +1498,7 @@ li {
     color: rgba(126, 126, 126, 1);
     margin-right: 70px;
     margin-top: -20px;
+    width: 550px;
   }
 }
 
@@ -1707,13 +1507,7 @@ li {
 }
 
 
-@media only screen and (min-width: 377px) {
-  .boolst {
-    margin-left: 10px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .boolst {
     margin-left: 100px;
   }
@@ -1721,19 +1515,11 @@ li {
 
 
 .foto-bolt {
-  width: 13px;
-  height: 13px;
+  width: 11px;
+  height: 11px;
 }
 
-
-@media only screen and (min-width: 377px) {
-  .foto-bolt {
-    width: 13px;
-    height: 13px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-bolt {
     width: 32px;
     height: 32px;
@@ -1747,7 +1533,7 @@ li {
 
 
 .info-bolt {
-  margin-left: 5px;
+  margin-left: 4px;
   font-family: 'Mulish';
   font-size: 7px;
   font-weight: 400;
@@ -1756,20 +1542,7 @@ li {
   color: rgba(28, 39, 82, 1);
 }
 
-
-@media only screen and (min-width: 377px) {
-  .info-bolt {
-    margin-left: 5px;
-    font-family: 'Mulish';
-    font-size: 7px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .info-bolt {
     margin-left: 15px;
     font-family: 'Mulish';
@@ -1783,17 +1556,11 @@ li {
 }
 
 .bolt {
-  margin-top: -2px;
+  margin-top: -5px;
 }
 
 
-@media only screen and (min-width: 377px) {
-  .bolt {
-    margin-top: -2px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .bolt {
     margin-top: -17px;
   }
@@ -1803,7 +1570,7 @@ li {
   font-family: 'Inter';
   font-size: 6px;
   font-weight: 400;
-  line-height: 11px;
+  line-height: 9px;
   letter-spacing: 0.36000001430511475px;
   text-align: left;
   color: rgba(126, 126, 126, 1);
@@ -1811,21 +1578,7 @@ li {
   margin-top: -1px;
 }
 
-@media only screen and (min-width: 377px) {
-  .info-bolt-parg {
-    font-family: 'Inter';
-    font-size: 6px;
-    font-weight: 400;
-    line-height: 11px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    margin-right: 10px;
-    margin-top: -1px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .info-bolt-parg {
     font-family: 'Inter';
     font-size: 16px;
@@ -1843,30 +1596,16 @@ li {
 
 .overlay {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(28, 39, 82, 0.86);
-  /* Прозрачный синий фон */
   padding: 10px;
   text-align: center;
 }
 
 
-@media only screen and (min-width: 377px) {
-  .overlay {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(28, 39, 82, 0.86);
-    /* Прозрачный синий фон */
-    padding: 10px;
-    text-align: center;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .overlay {
     position: absolute;
     top: 50%;
@@ -1887,16 +1626,7 @@ li {
   margin-bottom: 9px;
 }
 
-@media only screen and (min-width: 377px) {
-  .content {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 9px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .content {
     color: #fff;
     display: flex;
@@ -1914,18 +1644,8 @@ li {
   color: rgba(28, 39, 82, 1);
 }
 
-@media only screen and (min-width: 377px) {
-  .number {
-    font-family: 'Mulish';
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .number {
     font-family: 'Mulish';
     font-size: 24px;
@@ -1948,19 +1668,7 @@ li {
   justify-content: center;
 }
 
-@media only screen and (min-width: 377px) {
-  .number-textar {
-    width: 45px;
-    height: 20px;
-    background: rgba(255, 179, 66, 1);
-    border: 1px solid rgba(255, 179, 66, 1);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .number-textar {
     width: 100px;
     height: 50px;
@@ -1983,18 +1691,7 @@ li {
   justify-content: center;
 }
 
-@media only screen and (min-width: 377px) {
-  .text-textar {
-    border: 1px solid rgba(255, 255, 255, 1);
-    width: 90px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-textar {
     border: 1px solid rgba(255, 255, 255, 1);
     width: 210px;
@@ -2007,25 +1704,15 @@ li {
 
 .parag-textar {
   font-family: 'Mulish';
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 400;
   letter-spacing: 0.36000001430511475px;
   text-align: left;
   color: rgba(255, 255, 255, 1);
 }
 
-@media only screen and (min-width: 377px) {
-  .parag-textar {
-    font-family: 'Mulish';
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parag-textar {
     font-family: 'Mulish';
     font-size: 24px;
@@ -2042,14 +1729,8 @@ li {
   padding: 15px 0px;
 }
 
-@media only screen and (min-width: 377px) {
-  .image-textar-section {
-    position: relative;
-    padding: 15px 0px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .image-textar-section {
     position: relative;
   }
@@ -2067,14 +1748,8 @@ li {
   height: 14px;
 }
 
-@media only screen and (min-width: 377px) {
-  .foto-drap {
-    width: 11px;
-    height: 14px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-drap {
     width: 22px;
     height: 25px;
@@ -2089,17 +1764,7 @@ li {
   padding-top: 20px;
 }
 
-@media only screen and (min-width: 377px) {
-  .image-grid-section {
-    height: 290px;
-    background-color: rgba(28, 39, 82, 1);
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 20px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .image-grid-section {
     height: 700px;
     background-color: rgba(28, 39, 82, 1);
@@ -2118,18 +1783,8 @@ li {
   margin-left: 5px;
 }
 
-@media only screen and (min-width: 377px) {
-  .parg-drap {
-    font-family: 'Inter';
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    margin-left: 5px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-drap {
     font-family: 'Inter';
     font-size: 18px;
@@ -2148,22 +1803,11 @@ li {
   background: rgba(244, 244, 244, 1);
   height: 18px;
   width: 75px;
-  margin-left: 100px;
+  margin: auto;
 }
 
-@media only screen and (min-width: 377px) {
-  .drap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(244, 244, 244, 1);
-    height: 18px;
-    width: 75px;
-    margin-left: 132px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .drap {
     display: flex;
     justify-content: center;
@@ -2185,19 +1829,8 @@ li {
   color: rgba(255, 255, 255, 1);
 }
 
-@media only screen and (min-width: 377px) {
-  .text-drap {
-    font-family: 'Mulish';
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 35px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-drap {
     font-family: 'Mulish';
     font-size: 45px;
@@ -2215,15 +1848,8 @@ li {
   gap: 10px;
 }
 
-@media only screen and (min-width: 377px) {
-  .imageli-drap {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .imageli-drap {
     display: flex;
     justify-content: center;
@@ -2236,14 +1862,8 @@ li {
   height: 80px;
 }
 
-@media only screen and (min-width: 377px) {
-  .foto-imaheli {
-    width: 70px;
-    height: 80px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-imaheli {
     width: 250px;
     height: 280px;
@@ -2264,23 +1884,8 @@ li {
 
 }
 
-@media only screen and (min-width: 377px) {
-  .imageli {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 150px;
-    border-radius: 1px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    border: 1px solid rgba(210, 210, 210, 1);
-    transition: transform 0.3s;
 
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .imageli {
     justify-content: center;
     align-items: center;
@@ -2315,22 +1920,8 @@ li {
 
 }
 
-@media only screen and (min-width: 377px) {
-  .text-pargone {
-    font-family: 'Mulish';
-    font-size: 6px;
-    font-weight: 400;
-    line-height: 9px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-    margin-top: 10px;
-    margin-bottom: 1px;
 
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-pargone {
     font-family: 'Mulish';
     font-size: 23px;
@@ -2355,18 +1946,7 @@ li {
 }
 
 
-@media only screen and (min-width: 377px) {
-  .text-pargtho {
-    font-family: 'Inter';
-    font-size: 8px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(126, 126, 126, 1);
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-pargtho {
     font-family: 'Inter';
     font-size: 17px;
@@ -2382,18 +1962,12 @@ li {
 
 
 .price-var {
-  height: 475px;
+  height: 430px;
   background: rgba(244, 244, 244, 1);
 }
 
-@media only screen and (min-width: 377px) {
-  .price-var {
-    height: 479px;
-    background: rgba(244, 244, 244, 1);
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .price-var {
     height: 950px;
     background: rgba(244, 244, 244, 1);
@@ -2402,7 +1976,7 @@ li {
 }
 
 /*  */
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .paragraf-price-ac {
     display: flex;
     align-items: center;
@@ -2415,20 +1989,8 @@ li {
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .paragraf-price-ac {
-    display: flex;
-    align-items: center;
-    height: 16px;
-    width: 95px;
-    background: rgba(255, 255, 255, 1);
-    justify-content: center;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .paragraf-price-ac {
     display: flex;
     align-items: center;
@@ -2439,53 +2001,31 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .foto-price {
-    width: 12px;
-    height: 14px;
-  }
+.foto-price {
+  width: 11px;
+  height: 13px;
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .foto-price {
-    width: 12px;
-    height: 14px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-price {
     width: 22px;
     height: 25px;
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .smool-text {
-    font-family: 'Inter';
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-    margin-left: 5px;
-  }
+
+.smool-text {
+  font-family: 'Inter';
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: rgba(28, 39, 82, 1);
+  margin-left: 5px;
 }
 
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .smool-text {
-    font-family: 'Inter';
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .smool-text {
     font-family: 'Inter';
     font-size: 17px;
@@ -2498,35 +2038,21 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 471px) {
   .text-big-price {
     font-family: 'Mulish';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 17px;
     letter-spacing: 0.36000001430511475px;
     text-align: left;
     color: rgba(28, 39, 82, 1);
     margin-left: 10px;
-    width: 150px;
+    width: 130px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .text-big-price {
-    font-family: 'Mulish';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-    width: 150px;
-    margin-left: 10px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-big-price {
     font-family: 'Mulish';
     font-size: 46px;
@@ -2561,7 +2087,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .plan-price {
     display: flex;
     align-items: center;
@@ -2569,37 +2095,23 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .parg-price {
     font-family: 'Inter';
-    font-size: 7px;
+    font-size: 6px;
     font-weight: 400;
-    line-height: 11px;
+    line-height: 10px;
     letter-spacing: 0.36000001430511475px;
     text-align: left;
     color: rgba(126, 126, 126, 1);
-    margin-left: 10px;
-    margin-top: 40px;
+    margin-left: 30px;
+    margin-top: 45px;
+    width: 180px;
 
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .parg-price {
-    font-family: 'Inter';
-    font-size: 7px;
-    font-weight: 400;
-    line-height: 11px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    margin-left: 10px;
-    margin-top: 40px;
-
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-price {
     font-family: 'Inter';
     font-size: 18px;
@@ -2614,23 +2126,13 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .block-price {
-    width: 108px;
-    height: 200px;
-    background: rgba(255, 255, 255, 1);
-  }
+.block-price {
+  width: 108px;
+  height: 180px;
+  background: rgba(255, 255, 255, 1);
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .block-price {
-    width: 108px;
-    height: 200px;
-    background: rgba(255, 255, 255, 1);
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .block-price {
     width: 350px;
     height: 580px;
@@ -2638,35 +2140,17 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .lime-prg {
-    font-family: 'Inter';
-    font-size: 5px;
-    font-weight: 400;
-    line-height: 10px;
-    letter-spacing: 0.3199999928474426px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    margin-bottom: -3px;
-    margin-left: -15px;
-  }
+.lime-prg {
+  font-family: 'Inter';
+  font-size: 5px;
+  font-weight: 400;
+  letter-spacing: 0.3199999928474426px;
+  text-align: left;
+  color: rgba(126, 126, 126, 1);
+  margin-bottom: 10px
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .lime-prg {
-    font-family: 'Inter';
-    font-size: 5px;
-    font-weight: 400;
-    line-height: 10px;
-    letter-spacing: 0.3199999928474426px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    margin-bottom: -3px;
-    margin-left: -15px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .lime-prg {
     font-family: 'Inter';
     font-size: 15px;
@@ -2687,37 +2171,22 @@ li {
   justify-content: center;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .plan-lime {
     font-family: 'Inter';
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
     letter-spacing: 0.4000000059604645px;
     text-align: left;
     color: rgba(28, 39, 82, 1);
     margin-bottom: 5px;
-    margin-top: 1px;
+    margin-top: -6px;
     margin-left: 5px;
     width: 62px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .plan-lime {
-    font-family: 'Inter';
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 0.4000000059604645px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-    margin-bottom: 5px;
-    margin-top: 1px;
-    margin-left: 5px;
-    width: 62px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .plan-lime {
     font-family: 'Inter';
     font-size: 20px;
@@ -2730,33 +2199,20 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .plan-pay {
     font-family: 'Mulish';
-    font-size: 11px;
+    font-size: 8px;
     font-weight: 400;
     letter-spacing: 0.36000001430511475px;
     text-align: left;
     color: rgba(28, 39, 82, 1);
-    margin-top: -2px;
-    margin-right: 15px;
+    margin-top: -1px;
+    margin-right: 25px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .plan-pay {
-    font-family: 'Mulish';
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-    margin-top: -2px;
-    margin-right: 15px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .plan-pay {
     font-family: 'Mulish';
     font-size: 32px;
@@ -2782,7 +2238,7 @@ li {
     height: 1px;
     margin: auto;
     background: rgba(215, 215, 215, 1);
-    margin-top: -7px;
+    margin-top: -3px;
   }
 }
 
@@ -2792,11 +2248,11 @@ li {
     height: 1px;
     margin: auto;
     background: rgba(215, 215, 215, 1);
-    margin-top: -7px;
+    margin-top: -3px;
   }
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .linia {
     width: 300px;
     height: 1px;
@@ -2805,43 +2261,22 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .text-price-vip {
-    margin-top: 10px;
-  }
-}
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .text-price-vip {
-    margin-top: 10px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-price-vip {
     margin-top: 25px;
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .block-vip {
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    height: 15px;
-  }
+.block-vip {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  height: 15px;
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .block-vip {
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    height: 15px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .block-vip {
     display: flex;
     align-items: center;
@@ -2850,33 +2285,20 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .parg-vip {
     font-family: 'Inter';
     font-size: 5px;
     font-weight: 400;
     line-height: 6px;
-    letter-spacing: 0.36000001430511475px;
     text-align: left;
     color: rgba(126, 126, 126, 1);
     margin-left: 5px;
+    margin-bottom: 2.5px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .parg-vip {
-    font-family: 'Inter';
-    font-size: 5px;
-    font-weight: 400;
-    line-height: 6px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-vip {
     font-family: 'Inter';
     font-size: 17px;
@@ -2889,54 +2311,30 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .foto-block {
     width: 9px;
     height: 9px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .foto-block {
-    width: 9px;
-    height: 9px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-block {
     width: 19px;
     height: 19px;
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .btn-vip {
     font-family: 'Inter';
-    font-size: 7px;
+    font-size: 6px;
     font-weight: 400;
     letter-spacing: 0.36000001430511475px;
     text-align: center;
     color: rgba(28, 39, 82, 1);
-    width: 60px;
-    height: 18px;
-    background: #ffb342;
-    border: 2px solid #ffb342;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-  }
-}
-
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .btn-vip {
-    font-family: 'Inter';
-    font-size: 7px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-    width: 60px;
-    height: 18px;
+    width: 56px;
+    height: 16px;
     background: #ffb342;
     border: 2px solid #ffb342;
     cursor: pointer;
@@ -2945,7 +2343,7 @@ li {
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .btn-vip {
     font-family: 'Inter';
     font-size: 20px;
@@ -2971,15 +2369,7 @@ li {
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 376px) {
-  .button-vip-btn {
-    margin-top: 6px;
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 377px) and (max-width: 977px) {
+@media only screen and (max-width: 481px) {
   .button-vip-btn {
     margin-top: 6px;
     display: flex;
@@ -2995,57 +2385,38 @@ li {
 }
 
 /*  */
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .foto-iconka {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .foto-iconka {
-    width: 16px;
-    height: 16px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-iconka {
     width: 32px;
     height: 32px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .text-new-vip {
-    margin-top: 5px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-new-vip {
     margin-top: 40px;
     display: flex;
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .vip-pargar {
     width: 320px;
-    height: 70px;
+    height: 65px;
     display: flex;
+    margin-top: -6px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .vip-pargar {
-    width: 371px;
-    height: 70px;
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .vip-pargar {
     width: 550px;
     height: 170px;
@@ -3057,29 +2428,15 @@ li {
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 376px) {
-  .many-vip {
-    font-family: 'Mulish';
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-  }
+.many-vip {
+  font-family: 'Mulish';
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(28, 39, 82, 1);
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .many-vip {
-    font-family: 'Mulish';
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(28, 39, 82, 1);
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .many-vip {
     font-family: 'Mulish';
     font-size: 20px;
@@ -3091,32 +2448,25 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .iconka-vip {
-    margin-top: 15px;
+    margin-top: 12px;
     margin-left: 10px;
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .iconka-vip {
-    margin-top: 15px;
-    margin-left: 30px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .iconka-vip {
     margin-top: 20px;
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .many-vip-prg {
     font-family: 'Inter';
-    font-size: 8px;
+    font-size: 7px;
     font-weight: 400;
-    line-height: 13px;
+    line-height: 11px;
     letter-spacing: 0.36000001430511475px;
     text-align: left;
     color: rgba(126, 126, 126, 1);
@@ -3124,20 +2474,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 377px) and (max-width: 977px) {
-  .many-vip-prg {
-    font-family: 'Inter';
-    font-size: 8px;
-    font-weight: 400;
-    line-height: 13px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    margin-top: -10px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .many-vip-prg {
     font-family: 'Inter';
     font-size: 16px;
