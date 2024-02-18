@@ -1,8 +1,12 @@
 /* header */
 
+
+
+
 body {
   font-family: Georgia, serif;
 }
+
 
 
 li {
@@ -10,11 +14,12 @@ li {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 489px) {
-  .container {
-    width: auto;
-    margin: 0 auto;
-  }
+
+
+.container {
+  /* width: auto; */
+  margin: 0 auto;
+  max-width: 480px;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -24,52 +29,44 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .header {
-    max-width: 489px;
-    height: 30px;
-    background-color: #ebebeb;
-  }
+.header {
+  height: 30px;
+  background-color: #ebebeb;
 }
 
 @media only screen and (min-width: 1100px) {
   .header {
-    max-width: 1440px;
     height: 69px;
     background-color: #ebebeb;
   }
 }
 
-@media only screen and (max-width: 489px) {
+.dod-header {
+  display: flex;
+  height: 29px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1100px) {
   .dod-header {
     display: flex;
-    max-width: 489px;
     height: 29px;
     align-items: center;
+    align-items: flex-start;
   }
 }
 
-@media only screen and (min-width: 978px) {
-  .dod-header {
-    display: flex;
-    width: 1200px;
-    height: 29px;
-  }
+.parg-header {
+  margin-left: 20px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: #1c2752;
 }
 
-@media only screen and (max-width: 489px) {
-  .parg-header {
-    margin-left: 20px;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: #1c2752;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-header {
     margin-left: 240px;
     font-size: 17px;
@@ -81,16 +78,14 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .social-icons-header {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    display: none;
-  }
+.social-icons-header {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  display: none;
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .social-icons-header {
     margin-left: 300px;
     display: flex;
@@ -101,14 +96,12 @@ li {
 }
 
 
-@media only screen and (max-width: 489px) {
-  .social-icn {
-    list-style: none;
+.social-icn {
+  list-style: none;
 
-  }
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .social-icn {
     list-style: none;
   }
@@ -116,18 +109,14 @@ li {
 
 /* sect-one */
 
-@media only screen and (max-width: 489px) {
-  .sect-one {
-
-    height: 128px;
-    background-color: #ffffff;
-    margin-left: 10px;
-    /* margin-right: 140px; */
-    display: flex;
-  }
+.sect-one {
+  height: 128px;
+  background-color: #ffffff;
+  margin-left: 5px;
+  display: flex;
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .sect-one {
     /* width: 1200px; */
     height: 128px;
@@ -138,13 +127,13 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
+@media only screen and (max-width: 481px) {
   .logo-fotofra {
-    width: 150px;
+    width: 140px;
   }
 }
 
-@media only screen and (max-width: 489px) {
+@media only screen and (max-width: 481px) {
   .logo {
     height: 48px;
     padding-top: 20px;
@@ -152,7 +141,7 @@ li {
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .logo {
     width: 242px;
     height: 48px;
@@ -160,13 +149,13 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .logo-adress {
-    margin-top: 15px;
-  }
+.logo-adress {
+  margin-top: 60px;
+  margin-left: -143px;
+  display: flex;
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .logo-adress {
     display: flex;
     margin-top: 30px;
@@ -175,33 +164,28 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
+.address {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+
+@media only screen and (min-width: 1100px) {
   .address {
     display: flex;
     align-items: center;
-    margin-top: -10px;
   }
 }
 
-@media only screen and (min-width: 978px) {
-  .address {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-  }
+.parg-adres {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
 }
 
-@media only screen and (max-width: 489px) {
-  .parg-adres {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-adres {
     font-size: 18px;
     font-weight: 400;
@@ -222,7 +206,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
 
   .logo-email,
   .logo-tell {
@@ -233,42 +217,26 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-
-  .logo-email:focus,
-  .logo-email:hover,
-  .logo-tell:focus,
-  .logo-tell:hover {
-    transform: scale(1.2);
-  }
-}
-
-@media only screen and (min-width: 978px) {
-
-  .logo-email:focus,
-  .logo-email:hover,
-  .logo-tell:focus,
-  .logo-tell:hover {
-    transform: scale(1.2);
-  }
+.logo-email:focus,
+.logo-email:hover,
+.logo-tell:focus,
+.logo-tell:hover {
+  transform: scale(1.2);
 }
 
 
-@media only screen and (max-width: 489px) {
-
-  .email-cont,
-  .tell-cont {
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: #7e7e7e;
-    text-decoration: none;
-  }
+.email-cont,
+.tell-cont {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: #7e7e7e;
+  text-decoration: none;
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
 
   .email-cont,
   .tell-cont {
@@ -288,15 +256,12 @@ li {
 }
 
 /* navigation */
-@media only screen and (min-width: 320px) {
-  .sect-info {
-    width: auto;
-    padding-right: 15px;
-    height: 45px;
-    background-color: #ffb342;
-    position: absolute;
-    z-index: 1;
-  }
+.sect-info {
+  height: 45px;
+  background-color: #ffb342;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -21px;
 }
 
 @media only screen and (min-width: 978px) {
@@ -315,16 +280,20 @@ li {
   display: flex;
 }
 
-@media only screen and (max-width: 489px) {
+.navig-icons {
+  display: flex;
+  gap: 15px;
+  margin-left: -15px;
+}
+
+@media only screen and (min-width: 400px) {
   .navig-icons {
     display: flex;
-    gap: 17px;
-    margin-left: -15px;
+    gap: 15px;
   }
 }
 
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .navig-icons {
     display: flex;
     gap: 50px;
@@ -332,17 +301,15 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .na-glav {
-    text-decoration: none;
-    color: #222222;
-    font-size: 12px;
-    font-weight: 600;
-    transition: color 0.3s ease;
-  }
+.na-glav {
+  text-decoration: none;
+  color: #222222;
+  font-size: 12px;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .na-glav {
     text-decoration: none;
     color: #222222;
@@ -358,59 +325,27 @@ li {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 489px) {
-  .na-glav:hover {
-    color: #fff;
-  }
+.na-glav:hover {
+  color: #fff;
 }
 
-@media only screen and (min-width: 978px) {
-  .na-glav:hover {
-    color: #fff;
-  }
+.na-glav:active {
+  color: #fff;
 }
 
-@media only screen and (max-width: 489px) {
-  .na-glav:active {
-    color: #fff;
-  }
-}
-
-@media only screen and (min-width: 978px) {
-  .na-glav:active {
-    color: #fff;
-  }
-}
-
-@media only screen and (max-width: 489px) {
+@media only screen and (max-width: 481px) {
   .cta-button {
     display: none;
-    width: 75px;
-    height: 30px;
-    border-radius: 2px;
-    background: rgb(41, 53, 107);
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: #f4f4f4;
-    margin-top: 12px;
-    margin-left: 10px;
-    margin-right: 25px;
-    cursor: pointer;
-    transition: transform 0.3s;
-    border: 2px solid rgba(28, 39, 82, 1)
   }
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .cta-button {
     width: 250px;
     height: 55px;
     border-radius: 2px;
     background: rgb(41, 53, 107);
-
     font-size: 17px;
     font-weight: 400;
     line-height: 30px;
@@ -427,20 +362,9 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-
-  .cta-button:focus,
-  .cta-button:hover {
-    transform: scale(1.1);
-  }
-}
-
-@media only screen and (min-width: 978px) {
-
-  .cta-button:focus,
-  .cta-button:hover {
-    transform: scale(1.1);
-  }
+.cta-button:focus,
+.cta-button:hover {
+  transform: scale(1.1);
 }
 
 .ct-button {
@@ -450,23 +374,19 @@ li {
 
 
 /* hero */
-@media only screen and (max-width: 489px) {
-  .hero {
-    background-image: url("../img/sect3/foto11.png");
-    /* Замените путь на ваше изображение или цвет фона */
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    color: #fff;
-    text-align: center;
-    max-width: 489px;
-    height: 450px;
-    margin-top: 20px;
-    padding-top: 50px;
-  }
+.hero {
+  background-image: url("../img/sect3/foto11.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  height: 450px;
+  margin-top: 20px;
+  padding-top: 50px;
 }
 
-@media only screen and (max-width: 489px) {
+@media only screen and (max-width: 481px) {
   .hero::before {
     content: '';
     position: absolute;
@@ -478,7 +398,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .hero {
     background-image: url("../img/hero/hero.png");
     /* Замените путь на ваше изображение или цвет фона */
@@ -486,7 +406,6 @@ li {
     background-position: center;
     color: #fff;
     text-align: center;
-    max-width: 1440px;
     height: 600px;
     margin-top: 40px;
     padding-top: 100px;
@@ -494,35 +413,31 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .hero-content {
-    margin-left: 20px;
-    margin-top: 75px;
-    position: absolute;
-  }
+.hero-content {
+  margin-left: 20px;
+  margin-top: 75px;
+  position: absolute;
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .hero-content {
     margin-left: 140px;
     margin-top: 140px;
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .parg-hero {
-    font-size: 9px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: #ffffff;
-    margin-left: 5px;
-  }
+.parg-hero {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 5px;
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-hero {
     font-size: 16px;
     font-weight: 400;
@@ -534,34 +449,19 @@ li {
   }
 }
 
-
-@media only screen and (max-width: 376px) {
-  .text-hero {
-    width: 400px;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 50px;
-    letter-spacing: 1.2000000476837158px;
-    text-align: left;
-    color: #ffffff;
-    margin-top: 20px;
-  }
+.text-hero {
+  width: 331px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-@media only screen and (min-width: 376px) {
-  .text-hero {
-    width: 400px;
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 50px;
-    letter-spacing: 1.2000000476837158px;
-    text-align: left;
-    color: #ffffff;
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-hero {
     width: 612px;
     font-size: 60px;
@@ -575,28 +475,16 @@ li {
 }
 
 
-@media only screen and (max-width: 376px) {
-  .content-container {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff33;
-    height: 25px;
-    width: 280px;
-  }
-}
-
-@media only screen and (min-width: 376px) {
-  .content-container {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff33;
-    height: 25px;
-    width: 280px;
-  }
+.content-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 25px;
+  width: 332px;
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .content-container {
     display: flex;
     align-items: center;
@@ -606,42 +494,22 @@ li {
   }
 }
 
-
-@media only screen and (max-width: 376px) {
-  .button-hero {
-    display: block;
-    width: 150px;
-    height: 46px;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 2px;
-    background: #ffb342;
-    border: 2px solid rgba(255, 179, 66, 1);
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
+.button-hero {
+  display: block;
+  width: 150px;
+  height: 46px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 2px;
+  background: #ffb342;
+  border: 2px solid rgba(255, 179, 66, 1);
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
-@media only screen and (min-width: 376px) {
-  .button-hero {
-    display: block;
-    width: 150px;
-    height: 46px;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 2px;
-    background: #ffb342;
-    border: 2px solid rgba(255, 179, 66, 1);
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .button-hero {
     display: block;
     width: 227px;
@@ -676,21 +544,14 @@ li {
 }
 
 /* image-text-section */
-@media only screen and (max-width: 376px) {
-  .image-text-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+
+.image-text-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-@media only screen and (min-width: 376px) {
-  .image-text-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .image-text-section {
     padding: 100px 90px;
     display: flex;
@@ -701,6 +562,7 @@ li {
   .foto-fotik {
     width: 300px;
     height: 330px;
+    display: block;
   }
 }
 
@@ -708,45 +570,44 @@ li {
   .foto-fotik {
     width: 350px;
     height: 380px;
+    display: block;
   }
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .foto-fotik {
     width: 505px;
     height: 560px;
   }
 }
 
-@media only screen and (max-width: 489px) {
+@media only screen and (max-width: 481px) {
   .image-container {
     display: flex;
     justify-content: center;
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .text-sdf {
-    margin-top: 10px;
-  }
+.text-sdf {
+  margin-top: 10px;
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-sdf {
     margin-left: 40px;
   }
 }
 
 
-@media only screen and (max-width: 489px) {
-  .text-paragraf {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25px;
-    background-color: #f4f4f4;
-  }
+.text-paragraf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  background-color: #f4f4f4;
+  width: 200px;
+  margin: auto;
 }
 
 @media only screen and (min-width: 978px) {
@@ -759,33 +620,18 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .parg-bluu {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: #1c2752;
-    margin-left: 10px;
-    background-color: #f4f4f4;
-  }
+.parg-bluu {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: #1c2752;
+  margin-left: 10px;
+  background-color: #f4f4f4;
 }
 
-@media only screen and (min-width: 376px) {
-  .parg-bluu {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: #1c2752;
-    margin-left: 10px;
-    background-color: #f4f4f4;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-bluu {
     font-size: 16px;
     font-weight: 400;
@@ -798,34 +644,19 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .text-glavn {
-    font-size: 29px;
-    font-weight: 400;
-    line-height: 37px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: #1c2752;
-    margin-bottom: 20px;
-    margin-top: 15px;
-  }
-}
-
-@media only screen and (min-width: 376px) {
-  .text-glavn {
-    font-size: 29px;
-    font-weight: 400;
-    line-height: 37px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: #1c2752;
-    margin-bottom: 20px;
-    margin-top: 15px;
-  }
+.text-glavn {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: #1c2752;
+  margin-bottom: 14px;
+  margin-top: 15px;
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-glavn {
     font-size: 45px;
     font-weight: 400;
@@ -838,18 +669,16 @@ li {
   }
 }
 
-@media only screen and (max-width: 489px) {
-  .clipt {
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-  }
+.clipt {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: rgba(126, 126, 126, 1);
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .clipt {
     font-size: 15px;
     font-weight: 400;
@@ -866,23 +695,14 @@ li {
   align-items: center;
 }
 
-@media only screen and (max-width: 376px) {
-  .pidas {
-    background: rgb(239, 237, 237);
-    width: 200px;
-    height: 160px;
-  }
+.pidas {
+  background: rgb(239, 237, 237);
+  width: 200px;
+  height: 160px;
 }
 
-@media only screen and (min-width: 376px) {
-  .pidas {
-    background: rgb(239, 237, 237);
-    width: 200px;
-    height: 160px;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .pidas {
     background: rgb(239, 237, 237);
     width: 220px;
@@ -901,19 +721,17 @@ li {
   color: rgba(255, 179, 66, 1);
 }
 
-@media only screen and (max-width: 489px) {
-  .text-qerf {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: #1c2752;
-    margin-top: -70px;
-  }
+.text-qerf {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: #1c2752;
+  margin-top: -70px;
 }
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-qerf {
     font-size: 20px;
     font-weight: 400;
@@ -925,32 +743,17 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .new-info {
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    line-height: 16px;
-
-  }
+.new-info {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: rgba(126, 126, 126, 1);
+  line-height: 16px;
 }
 
 
-@media only screen and (min-width: 376px) {
-  .new-info {
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(126, 126, 126, 1);
-    line-height: 16px;
-
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .new-info {
     font-size: 15px;
     font-weight: 400;
@@ -968,27 +771,16 @@ li {
 
 /* orang-section */
 
-@media only screen and (max-width: 376px) {
-  .orang-section {
-    background: rgba(255, 179, 66, 1);
-    height: 505px;
-    padding-top: 10px;
-    z-index: 2;
-    position: relative;
-  }
+.orang-section {
+  background: rgba(255, 179, 66, 1);
+  height: 505px;
+  padding-top: 10px;
+  z-index: 2;
+  position: relative;
 }
 
-@media only screen and (min-width: 376px) {
-  .orang-section {
-    background: rgba(255, 179, 66, 1);
-    height: 505px;
-    padding-top: 10px;
-    z-index: 2;
-    position: relative;
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .orang-section {
     background: rgba(255, 179, 66, 1);
     height: 860px;
@@ -998,27 +790,15 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .text-orangas {
-    display: flex;
-    background-color: #f4f4f4;
-    height: 20px;
-    align-items: center;
-    justify-content: center;
-  }
+.text-orangas {
+  display: flex;
+  background-color: #f4f4f4;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
-@media only screen and (min-width: 376px) {
-  .text-orangas {
-    display: flex;
-    background-color: #f4f4f4;
-    height: 20px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .text-orangas {
     display: flex;
     background-color: #f4f4f4;
@@ -1029,29 +809,16 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .parg-orang {
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin-left: 5px;
-  }
+.parg-orang {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin-left: 5px;
 }
 
-@media only screen and (min-width: 376px) {
-  .parg-orang {
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-orang {
     font-size: 18px;
     font-weight: 400;
@@ -1064,28 +831,15 @@ li {
 
 /* new-info-container */
 
-@media only screen and (max-width: 376px) {
-  .new-info-container {
-    text-align: center;
-    margin-top: 16px;
-    align-items: center;
-    display: flex;
-    flex-direction: column
-  }
+.new-info-container {
+  text-align: center;
+  margin-top: 16px;
+  align-items: center;
+  display: flex;
+  flex-direction: column
 }
 
-
-@media only screen and (min-width: 376px) {
-  .new-info-container {
-    text-align: center;
-    margin-top: 16px;
-    align-items: center;
-    display: flex;
-    flex-direction: column
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .new-info-container {
     text-align: center;
     margin-top: 10px;
@@ -1096,31 +850,17 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .glav-orang {
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 45px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-    margin-bottom: 1px;
-  }
+.glav-orang {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: rgba(28, 39, 82, 1);
+  margin-bottom: 1px;
 }
 
-@media only screen and (min-width: 376px) {
-  .glav-orang {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 45px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-    margin-bottom: 1px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .glav-orang {
     font-size: 45px;
     font-weight: 400;
@@ -1132,31 +872,17 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .parg-orang2 {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-    width: 350px;
-  }
+.parg-orang2 {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: rgba(28, 39, 82, 1);
+  width: 350px;
 }
 
-@media only screen and (min-width: 376px) {
-  .parg-orang2 {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: center;
-    color: rgba(28, 39, 82, 1);
-    width: 350px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .parg-orang2 {
     font-size: 18px;
     font-weight: 400;
@@ -1176,36 +902,18 @@ li {
 }
 
 
-@media only screen and (max-width: 376px) {
-  .button-click {
-    width: 95px;
-    height: 45px;
-    border-radius: 3px;
-    border: 1px solid rgba(28, 39, 82, 1);
-    margin: 5px;
-    background-color: #FFB342;
-    cursor: pointer;
-    transition: background-color 0.3s;
-
-
-  }
+.button-click {
+  width: 95px;
+  height: 45px;
+  border-radius: 3px;
+  border: 1px solid rgba(28, 39, 82, 1);
+  margin: 5px;
+  background-color: #FFB342;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-@media only screen and (min-width: 376px) {
-  .button-click {
-    width: 100px;
-    height: 49px;
-    border-radius: 3px;
-    border: 1px solid rgba(28, 39, 82, 1);
-    background-color: #FFB342;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin: 5px;
-
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .button-click {
     width: 219px;
     height: 67px;
@@ -1232,48 +940,28 @@ li {
   background-color: #ffffff;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .button-icon {
     width: 20px;
   }
 }
 
-@media only screen and (min-width: 376px) {
-  .button-icon {
-    width: 20px;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .button-icon {
     width: auto;
   }
 }
 
-
-@media only screen and (max-width: 376px) {
-  .btn-text {
-    font-size: 12px;
-    font-weight: 500;
-    text-align: left;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-  }
+.btn-text {
+  font-size: 11px;
+  font-weight: 500;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
 }
 
-@media only screen and (min-width: 376px) {
-  .btn-text {
-    font-size: 12px;
-    font-weight: 500;
-    text-align: left;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .btn-text {
     font-size: 19px;
     font-weight: 500;
@@ -1285,29 +973,16 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
-  .contentie-container {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    height: 220px;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: -2px 8px 20px 1px rgba(0, 0, 0, 0.09);
-  }
+.contentie-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: -2px 8px 20px 1px rgba(0, 0, 0, 0.09);
 }
 
-@media only screen and (min-width: 376px) {
-  .contentie-container {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    height: 220px;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: -2px 8px 20px 1px rgba(0, 0, 0, 0.09);
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .contentie-container {
     margin-top: 30px;
     display: flex;
@@ -1325,18 +1000,7 @@ li {
 /* /////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////// */
 
-@media only screen and (max-width: 376px) {
-  .shgfr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 200px;
-    margin-left: 12px;
-    margin-right: 10px;
-  }
-}
-
-@media only screen and (min-width: 376px) and (max-width: 977px) {
+@media only screen and (max-width: 481px) {
   .shgfr {
     display: flex;
     flex-direction: column;
@@ -1348,7 +1012,7 @@ li {
 }
 
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .shgfr {
     margin-left: 30px;
     margin-bottom: 70px;
@@ -1358,7 +1022,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .saro {
     font-family: 'Inter';
     font-size: 11px;
@@ -1370,18 +1034,7 @@ li {
 }
 
 
-@media only screen and (min-width: 376px) {
-  .saro {
-    font-family: 'Inter';
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 13px;
-    color: rgba(28, 39, 82, 1);
-    background: rgba(244, 244, 244, 1);
-  }
-}
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .saro {
     font-family: 'Inter';
     font-size: 17px;
@@ -1393,7 +1046,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .sarewo {
     font-size: 19px;
     margin-top: -3px;
@@ -1403,17 +1056,8 @@ li {
 }
 
 
-@media only screen and (min-width: 376px) {
-  .sarewo {
-    font-size: 19px;
-    margin-top: -3px;
-    font-weight: 400;
-    color: rgba(28, 39, 82, 1);
-  }
-}
 
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .sarewo {
     font-size: 40px;
     margin-top: 1px;
@@ -1423,29 +1067,19 @@ li {
 }
 
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .ogurg {
     font-family: 'Inter';
     margin-top: -10px;
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 400;
     line-height: 15px;
     color: rgba(126, 126, 126, 1);
   }
 }
 
-@media only screen and (min-width: 376px) {
-  .ogurg {
-    font-family: 'Inter';
-    margin-top: -10px;
-    font-size: 9px;
-    font-weight: 400;
-    line-height: 15px;
-    color: rgba(126, 126, 126, 1);
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .ogurg {
     font-family: 'Inter';
     margin-top: 1px;
@@ -1456,29 +1090,19 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .ogurg2 {
     font-family: 'Inter';
     margin-top: -10px;
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 400;
     line-height: 15px;
     color: rgba(126, 126, 126, 1);
   }
 }
 
-@media only screen and (min-width: 376px) {
-  .ogurg2 {
-    font-family: 'Inter';
-    margin-top: -10px;
-    font-size: 9px;
-    font-weight: 400;
-    line-height: 15px;
-    color: rgba(126, 126, 126, 1);
-  }
-}
 
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .ogurg2 {
     font-family: 'Inter';
     margin-top: 1px;
@@ -1489,7 +1113,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 481px) {
   .ogurfoto {
     margin-right: 15px;
     width: 150px;
@@ -1497,16 +1121,8 @@ li {
   }
 }
 
-@media only screen and (min-width: 376px) {
-  .ogurfoto {
-    margin-right: 15px;
-    width: 160px;
-    height: 170px;
-  }
-}
 
-
-@media only screen and (min-width: 978px) {
+@media only screen and (min-width: 1100px) {
   .ogurfoto {
     margin-right: 30px;
     width: 416px;
